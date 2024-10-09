@@ -6,10 +6,38 @@ const planetasRoutes = Router();
 let planetas = [
   {
     id: Math.floor(Math.random() * 1000000),
-    nome: "Dev",
-    temperatura: 13.3,
-    agua: false, // Indicação de existência de água
-    atm: ["JS", "NODE", "VS", "Code"],
+    nome: "Krypton",
+    temperatura: -30.0,
+    agua: false,
+    atm: ["Kriptonita", "Oxigênio", "Nitrogênio"],
+  },
+  {
+    id: Math.floor(Math.random() * 1000000),
+    nome: "Xandar",
+    temperatura: 25.0,
+    agua: true,
+    atm: ["Nitrogênio", "Oxigênio", "Hidrogênio"],
+  },
+  {
+    id: Math.floor(Math.random() * 1000000),
+    nome: "Asgard",
+    temperatura: 5.0,
+    agua: false,
+    atm: ["Magia", "Energia Cósmica", "Oxigênio"],
+  },
+  {
+    id: Math.floor(Math.random() * 1000000),
+    nome: "Apokolips",
+    temperatura: 50.0,
+    agua: false,
+    atm: ["Fumaça", "Dióxido de Enxofre", "Monóxido de Carbono"],
+  },
+  {
+    id: Math.floor(Math.random() * 1000000),
+    nome: "Knowhere",
+    temperatura: -10.0,
+    agua: true,
+    atm: ["Hidrogênio", "Nitrogênio", "Partículas Cósmicas"],
   },
 ];
 
